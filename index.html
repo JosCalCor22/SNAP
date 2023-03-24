@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+  <!-- FONTS -->
+  <!-- STYLE SHEETS (MOBILE, DESKTOP) -->
+	<link rel="stylesheet" href="./styles/style-desktop.css">
+  <link rel="stylesheet" href="./styles/style-mobile.css" media="(max-width: 750px)">
+<!-- STYLE SHEETS (MOBILE, DESKTOP) -->
+  <title>Snap</title>
+</head>
+<body>
+  <header>
+    <section class="main-header" id="desktop-header">
+      <div class="image-">
+        <img class="icon" src="./Assets/images/logo.svg" alt="Logo-Snap">
+      </div>
+      <!-- EL DIV HAMBURGER DEBE DE ESTAR NONE EN DESKTOP -->
+      <div class="hamburger-div">
+        <button class="hamburger" type="button">
+          <img class="img-hamburguer" src="https://cdn-icons-png.flaticon.com/512/5259/5259005.png" alt="">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+      <!-- EL DIV HAMBURGER DEBE DE ESTAR NONE EN DESKTOP -->
+      <!-- DESKTOP -->
+    </section>
+    <div class="conteiner-links" id="desktop-conteiner">
+      <div class="container-menu1">
+        <button class="links btnFeactures">Feactures <span><img class="row1" src="./Assets/images/icon-arrow-down.svg" alt=""></span></button>
+        <div class="menu1-desktop">
+            <a class="topic-nav1" href="">
+                <img src="./Assets/images/icon-todo.svg" alt="Notebook">
+                <p>Todo list</p>
+            </a>
+            <a class="topic-nav1" href="">
+                <img src="./Assets/images/icon-calendar.svg" alt="Calender">
+                <p>Calender</p>
+            </a>
+            <a class="topic-nav1" href="">
+                <img src="./Assets/images/icon-reminders.svg" alt="Reminders">
+                <p>Reminders</p>
+            </a>
+            <a class="topic-nav1" href="">
+              <img src="./Assets/images/icon-planning.svg" alt="Planning">
+                <p>Planning</p>
+            </a>
+        </div>
+      </div>
+      <div class="container-manu2">
+        <button class="links btnCompany">Company<span><img class="row2 row1 " src="./Assets/images/icon-arrow-down.svg" alt=""></span></button>
+        <div class="menu2-desktop">
+          <a class="topic-nav2" href="">
+            <p>History</p>
+          </a>
+          <a class="topic-nav2" href="">
+              <p>Our team</p>
+          </a>
+          <a class="topic-nav2" href="">
+              <p>Blog</p>
+          </a>
+        </div>
+      </div>
+      <button class="links">Careers</button>
+      <button class="links">About</button>
+    </div>
+    <div class="buttons" id="desktop-buttons">
+      <button class="btn login">Login</button>
+      <button class="btn register">Register</button>
+    </div>
+    <!-- DESKTOP -->
+    <!-- RESPONSIVE -->
+    <section class="hamburger-container">
+      <!-- LA IMG CLOSE BURGER DEBE DE ESTAR NONE EN DESKTOP -->
+      <div class="closed-menu-burger">
+        <img class="close-img" src="../Assets/images/icon-close-menu.svg" alt="Closed-Menu">
+      </div>
+      <!-- LA IMG CLOSE BURGER DEBE DE ESTAR NONE EN DESKTOP -->
+      <div class="conteiner-links" id="mobile-conteiner">
+        <div class="container-menu1">
+          <button class="links btnFeacturesMobile">Feactures <span><img class="rowMobile row1" src="./Assets/images/icon-arrow-down.svg" alt=""></span></button>
+          <div class="menu1">
+              <a class="topic-nav1" href="">
+                  <img src="./Assets/images/icon-todo.svg" alt="Notebook">
+                  <p>Todo list</p>
+              </a>
+              <a class="topic-nav1" href="">
+                  <img src="./Assets/images/icon-calendar.svg" alt="Calender">
+                  <p>Calender</p>
+              </a>
+              <a class="topic-nav1" href="">
+                  <img src="./Assets/images/icon-reminders.svg" alt="Reminders">
+                  <p>Reminders</p>
+              </a>
+              <a class="topic-nav1" href="">
+                  <img src="./Assets/images/icon-planning.svg" alt="Planning">
+                  <p>Planning</p>
+              </a>
+          </div>
+        </div>
+        <div class="container-manu2">
+          <button class="links btnCompanyMobile">Company <span><img class="rowMobile1 row1 " src="./Assets/images/icon-arrow-down.svg" alt=""></span></button>
+          <div class="menu2">
+            <a class="topic-nav2" href="">
+              <p>History</p>
+            </a>
+            <a class="topic-nav2" href="">
+                <p>Our team</p>
+            </a>
+            <a class="topic-nav2" href="">
+                <p>Blog</p>
+            </a>
+          </div>
+        </div>
+        <button class="links">Careers</button>
+        <button class="links">About</button>
+      </div>
+      <div class="buttons">
+        <button class="btn login">Login</button>
+        <button class="btn register">Register</button>
+      </div>
+    </section>
+    <!-- RESPONSIVE -->
+  </header>
+  <main>
+    <section class="main-conteiner-info">
+      <div class="info-conteiner-text">
+        <h1 class="title-text">Make <br> remote work</h1>
+        <p class="info-text">Get your team in async, no matter your location, Streamline processes, create team rituals, and watch productivity soar</p>
+        <button class="btn-text">Learn more</button>
+          <div class="brand-images">
+            <img class="images-items" src="./Assets/images/client-databiz.svg" alt="">
+            <img style="width: 80px;" class="images-items" src="./Assets/images/client-audiophile.svg" alt="">
+            <img class="images-items" src="./Assets/images/client-meet.svg" alt="">
+            <img class="images-items" src="./Assets/images/client-maker.svg" alt="">
+          </div>
+      </div>
+    </section>
+    <section class="info-conteiner-img">
+      <div class="conteiner-img">
+        <div class="desktop-image-conteiner">
+          <img src="./Assets/images/image-hero-desktop.png" class="image-desktop" alt="Desktop-Img">
+        </div>
+        <div class="image-mobile-conteiner">
+          <img src="./Assets/images/image-hero-mobile.png" class="image-mobile" alt="Mobile-Img">
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+  <script src="app.js"></script>
+</body>
+</html>

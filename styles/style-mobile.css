@@ -1,0 +1,239 @@
+:root{
+    --color-fondo: #fafafa;
+    --color-active: #ffffff;
+    --color-letraNav: #c5c5c5;
+    --color-button: #151515;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 62.5%;
+}
+/*HEADER STYLES*/
+/*MAIN HEADER*/
+.main-header{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+/*MAIN HEADER*/
+/*BTN HAMBURGER*/
+.hamburger-div{
+    display: flex;
+}
+.hamburger {
+    background-color: initial;
+    border: none;
+}
+.img-hamburguer {
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 12px;
+}
+.close-img {
+    cursor: pointer;
+    margin-right: 10px;
+}
+/*BTN HAMBURGER*/
+/*CONTENT BURGER*/
+.closed-menu-burger{
+    display: flex;
+    justify-content: right;
+    padding: 10px 10px 0 0;
+}
+.closed-menu-burger img{
+    height: 18px;
+    width: 18px;
+}
+.hamburger-container {
+    flex-direction: column;
+    position: absolute;
+    display: flex;
+    width: 160px;
+    height: 100%;
+    gap: 20px;
+    right: 0;
+    top: 0;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: var(--color-fondo);
+}
+#desktop-conteiner{
+    display: none;
+}
+#mobile-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+    padding-top: 5px;
+}
+.icon {
+    width: 80px;
+    margin-right: 40px;
+}
+.links {
+    display: flex;
+    gap: 5px;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: inherit;
+    transition: .3s;
+    opacity: .8;
+}
+.links:hover {
+    opacity: .7;
+    transition: .3s
+}
+/*CLASS INACTIVE MENUS*/
+/*CLASS INACTIVE MENUS*/
+/*DEPLOY MENU 1*/
+.menu1{
+    transition: .3s;
+    display: none;
+    position: relative;
+    height: auto;
+    width: 130px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(73, 73, 73, 0.2);
+    background-color: #fafafa;
+    margin-top: 10px;
+}
+.topic-nav1{
+    display: flex;
+    place-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--color-letraNav);
+    margin: 10px 0;
+}
+.topic-nav1 img{
+    width: 14px;
+    height: 14px;
+}
+.topic-nav1 p{
+    font-size: .8rem;
+    margin: 0 0;
+    color: var(--color-button);
+    font-weight: 600;
+}
+/*DEPLOY MENU 1*/
+/*DEPLOY MENU 2*/
+.menu2{
+    position: relative;
+    transition: .3s;
+    display: none;
+    height: auto;
+    width: 110px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(73, 73, 73, 0.2);
+    background-color: #fafafa;
+}
+.topic-nav2{
+    color: var(--color-button);
+    text-decoration: none;
+    margin: 0;
+    font-weight: 600;
+}
+.topic-nav2 p{
+    font-size: .8rem;
+    margin: 15px 0px;
+}
+.row1, .row2 {
+    transition: .3s;
+}
+.rowActive {
+    transform: rotate(180deg);
+    transition: .3s;
+}
+/*DEPLOY MENU 2*/
+/*BUTTON SECTIONS*/
+#desktop-buttons{
+    display: none;
+    margin-top: -100px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+    
+}
+.btn {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    opacity: .8;
+}
+.login {
+    border: none;
+    background-color: inherit;
+    margin-right: 10px;
+}
+.register {
+    background-color: inherit;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid var(--color-letraNav);
+    transition: .3s;
+    width: 100%;
+}
+.register:hover {
+    transition: .3s;
+    border: 2px solid black;
+}
+.inactive {
+    display: none;
+}
+.inactiveItems {
+    display: block;
+}
+/*BUTTON SECTIONS*/
+/*CONTENT BURGER*/
+/*HEADER ESTILOS*/
+/*BODY*/
+main{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    padding: 0 0 10px 0;
+}
+.main-conteiner-info{
+    text-align: center;
+}
+.info-conteiner-text{
+    padding: 0 20px;
+}
+.info-text{
+    max-width: none;
+}
+.info-conteiner-img{
+    width: 100%;
+}
+.desktop-image-conteiner{
+    display: none;
+}
+.image-mobile-conteiner{
+    display: flex;
+    width: 100%;
+}
+.btn-text{
+    margin: 10px 0;
+}
+.brand-images{
+    justify-content: space-evenly;
+}
+/* BODY */
